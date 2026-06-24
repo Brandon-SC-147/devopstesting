@@ -4,11 +4,12 @@ name: React CI/CD Pipeline
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
+# This workflow defines three jobs: build, tests, and deploy. The build job compiles the React application, the tests job runs the test suite, and the deploy job deploys the application to Vercel after successful builds and tests.
 jobs:
   build:
     name: Build
