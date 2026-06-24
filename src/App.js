@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+// This is a React functional component that renders the main application UI. It includes a header with a logo, a description, and links for further learning. The component is exported as the default export of the module.
 function App() {
   return (
     <div className="App">
